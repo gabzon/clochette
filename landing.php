@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: Front page
+* Template Name: Landing page
 */
 ?>
 
