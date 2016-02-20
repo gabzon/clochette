@@ -1,1 +1,25 @@
 
+@font-face {
+    font-family: 'tinkerbellregular';
+    src: url('../fonts/tinkerbell_-_kustren-webfont.eot');
+    src: url('../fonts/tinkerbell_-_kustren-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tinkerbell_-_kustren-webfont.woff2') format('woff2'),
+         url('../fonts/tinkerbell_-_kustren-webfont.woff') format('woff'),
+         url('../fonts/tinkerbell_-_kustren-webfont.ttf') format('truetype'),
+         url('../fonts/tinkerbell_-_kustren-webfont.svg#tinkerbellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h1{
+    font-family: 'tinkerbellregular';
+}
+
+.thinkerbell{
+    font-family: 'tinkerbellregular',
+}
+
+.no-thinkerbell{
+    font-family: 'Helvetica',sans-serif;
+}

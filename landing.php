@@ -1,8 +1,16 @@
 <?php
 /**
-* Template Name: Landing page
+* Template Name: Landing
 */
 ?>
+
+<div class="jumbotron" style="background-color: #FFD10F !important">
+    <div class="container">
+        <h1>Hello, Clochette</h1>
+        <p>...</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+    </div>
+</div>
 
 <!-- Page Content -->
 <div class="container">

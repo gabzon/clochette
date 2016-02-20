@@ -19,14 +19,6 @@ do_action('get_header');
 get_template_part('templates/header');
 ?>
 
-<div class="jumbotron" style="background-color: #FFD10F !important">
-    <div class="container">
-        <h1>Hello, Clochette</h1>
-        <p>...</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>
-</div>
-
 <div class="wrap container" role="document">
     <div class="content row">
         <main class="main">
