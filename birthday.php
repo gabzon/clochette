@@ -16,20 +16,19 @@
         <img src="http://bqhdcmfo.preview.infomaniak.com/wp-content/uploads/2016/02/anni-2.png" alt="anni-2" class="img-responsive" />
     </div>
     <br>
-    <div class="jumbotron">
+    <div class="ui yellow inverted segment center aligned" >
         <h1>THEME DE LA SOIREE</h1>
-        <br>
-        <br>
-        <p class="thinkerbell">
-            Heros ou heroïnes - gentils ou méchants de <br>
-            BD - séries tv - films - comédies musicales - jeux vidéos<br>
-            Ah! et.. n'oubliez pas votre déguisement! <span class="no-thinkerbell">(-;</span> <br>
-            magnifique cocktail dînatoire grâce à mon ami traiteur <a href="http://www.vidonne.ch/">André Vidonne</a> <br>
+        <h2 class="thinkerbell"><u>Heros ou heroïnes - gentils ou méchants de:</u></h2>
+        <h3 class="thinkerbell">
+             <br>
+            dessins animés - séries tv - films - comédies musicales - opera - jeux vidéos<br>
+            Ah<span class="no-thinkerbell"> !</span> et.. n'oubliez pas votre déguisement<span class="no-thinkerbell"> ! <i class="smile icon"></i></span> <br>
+            magnifique cocktail dînatoire grâce à mon ami traiteur André Vidonne<br>
             et quelques belles  surprises vous attendent..<br>
-            au plaisir de vous voir, on va bien s'amuser!<br>
+            au plaisir de vous voir, on va bien s'amuser <span class="no-thinkerbell">!</span><br>
             gros gros bisous<br>
             p'tite fée
-        </p>
+        </h3>
     </div>
     <br>
     <h2>Voici quelque idées</h2>
