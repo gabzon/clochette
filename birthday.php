@@ -16,22 +16,21 @@
         <img src="http://bqhdcmfo.preview.infomaniak.com/wp-content/uploads/2016/02/anni-2.png" alt="anni-2" class="img-responsive" />
     </div>
     <br>
-    <div class="ui yellow inverted segment center aligned" >
-        <h1>THEME DE LA SOIREE</h1>
-        <h2 class="thinkerbell"><u>Heros ou heroïnes - gentils ou méchants de:</u></h2>
-        <h3 class="thinkerbell">
-             <br>
-            dessins animés - séries tv - films - comédies musicales - opera - jeux vidéos<br>
+    <div class="ui yellow inverted segment center aligned" style="color:black">
+        <h1 style="color:black">THEME DE LA SOIREE</h1>
+        <h2 style="color:black" class="thinkerbell"><u>Heros ou heroïnes - gentils ou méchants des:</u></h2>
+        <h2 style="color:black" class="thinkerbell">
+            dessins animés - séries tv - films - comédies musicales - operas - jeux vidéos<br>
             Ah<span class="no-thinkerbell"> !</span> et.. n'oubliez pas votre déguisement<span class="no-thinkerbell"> ! <i class="smile icon"></i></span> <br>
             magnifique cocktail dînatoire grâce à mon ami traiteur André Vidonne<br>
             et quelques belles  surprises vous attendent..<br>
             au plaisir de vous voir, on va bien s'amuser <span class="no-thinkerbell">!</span><br>
             gros gros bisous<br>
             p'tite fée
-        </h3>
+        </h2>
     </div>
     <br>
-    <h2>Voici quelque idées</h2>
+    <h2 class="thinkerbell">Ci-dessous quelques idées pour le choix de votre déguisement</h2>
     <br>
     <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
