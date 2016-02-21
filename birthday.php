@@ -20,7 +20,7 @@
         <h1 style="color:black">THEME DE LA SOIREE</h1>
         <h2 style="color:black" class="thinkerbell"><u>Heros ou heroïnes - gentils ou méchants des:</u></h2>
         <h2 style="color:black" class="thinkerbell">
-            dessins animés - séries tv - films - comédies musicales - operas - jeux vidéos<br>
+            <span style="color:blue">dessins animés - séries tv - films - comédies musicales - operas - jeux vidéos</span><br>
             Ah<span class="no-thinkerbell"> !</span> et.. n'oubliez pas votre déguisement<span class="no-thinkerbell"> ! <i class="smile icon"></i></span> <br>
             magnifique cocktail dînatoire grâce à mon ami traiteur André Vidonne<br>
             et quelques belles  surprises vous attendent..<br>
@@ -30,7 +30,9 @@
         </h2>
     </div>
     <br>
-    <h2 class="thinkerbell">Ci-dessous quelques idées pour le choix de votre déguisement</h2>
+    <div class="ui basic segment center aligned">
+        <h2 class="thinkerbell">Ci-dessous quelques idées pour le choix de votre déguisement</h2>
+    </div>
     <br>
     <?php get_template_part('templates/content', 'page'); ?>
     <br>
