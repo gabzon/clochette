@@ -33,4 +33,5 @@
     <h2 class="thinkerbell">Ci-dessous quelques idées pour le choix de votre déguisement</h2>
     <br>
     <?php get_template_part('templates/content', 'page'); ?>
+    <br>
 <?php endwhile; ?>
