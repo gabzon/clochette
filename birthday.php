@@ -19,7 +19,7 @@
     <div class="ui yellow inverted segment center aligned" style="color:black">
         <h1 style="color:black">THEME DE LA SOIREE</h1>
         <h2 style="color:black" class="thinkerbell">
-            <u><span style="color:green">Heros ou heroïnes</span> - gentils ou méchants des:</u><br>        
+            <u><span style="color:green">Heros ou heroïnes</span> - <span style="color:brown">gentils ou méchants</span> des:</u><br>        
             <span style="color:blue">dessins animés - séries tv - films - comédies musicales - opéras - jeux vidéos</span><br>
             Ah<span class="no-thinkerbell"> !</span> et.. n'oubliez pas votre déguisement<span class="no-thinkerbell"> ! <i class="smile icon"></i></span> <br>
             magnifique cocktail dînatoire grâce à mon ami traiteur André Vidonne<br>
