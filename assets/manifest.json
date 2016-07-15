@@ -27,11 +27,6 @@
         "scripts/freelancer.js"
       ]
     },
-    "jqBootstrapValidation.js": {
-      "files": [
-        "scripts/jqBootstrapValidation.js"
-      ]
-    },
     "jquery.js": {
       "bower": ["jquery"]
     }
