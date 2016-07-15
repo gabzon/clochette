@@ -4,13 +4,15 @@
 */
 ?>
 
-<div class="jumbotron" style="background-color: #FFD10F !important">
+
+<div class="jumbotron" style="background: #FFD10F; background: -webkit-linear-gradient(to left, #FFD10F , #F09819); background: linear-gradient(to right, #FFD10F , #F09819); margin-top:-20px">
     <div class="container">
         <h1>Hello, Clochette</h1>
         <p>...</p>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
     </div>
 </div>
+
 
 <!-- Page Content -->
 <div class="container">

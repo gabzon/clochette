@@ -17,11 +17,26 @@
         "scripts/customizer.js"
       ]
     },
+    "contact_me.js": {
+      "files": [
+        "scripts/contact_me.js"
+      ]
+    },
+    "freelancer.js": {
+      "files": [
+        "scripts/freelancer.js"
+      ]
+    },
+    "jqBootstrapValidation.js": {
+      "files": [
+        "scripts/jqBootstrapValidation.js"
+      ]
+    },
     "jquery.js": {
       "bower": ["jquery"]
     }
   },
   "config": {
-    "devUrl": "http://example.dev"
+    "devUrl": "http://localhost/clochette/web"
   }
 }
