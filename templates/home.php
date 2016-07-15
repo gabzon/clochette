@@ -21,6 +21,6 @@
 
 <?php get_template_part('templates/portfolio'); ?>
 
-<?php get_template_part('templates/about'); ?>
+<?php // get_template_part('templates/about'); ?>
 
-<?php get_template_part('templates/contact'); ?>
+<?php // get_template_part('templates/contact'); ?>

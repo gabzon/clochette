@@ -46,7 +46,7 @@
         <br><br><br>
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Video Trailer Movies Rescored</h2>
+                <h2>Movie Trailers Rescored</h2>
                 <hr class="star-primary">
             </div>
         </div>
