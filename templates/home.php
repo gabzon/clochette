@@ -4,23 +4,102 @@
 */
 ?>
 
+<style media="screen">
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+h2 {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+}
+</style>
+
+<?php $args = [ 'category_name' => 'page', 'posts_per_page' => -1 ]; ?>
+<?php $pages = get_posts($args); ?>
+
 <!-- Header -->
-  <header>
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12">
-                  <div class="intro-text">
-                      <span class="name">Imagine your music</span>
-                      <hr class="star-light">
-                      <span class="skills">Catchy tunes & all styles</span>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </header>
+<header class="landing">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-text text-center">
+                    <h1>Imagine your music</h1>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <?php foreach ( $pages as $post ) : setup_postdata( $post ); ?>
+                <div class="col-lg-4" style="">
+                    <a href="<?php the_permalink(); ?>">
+                        <div class="image">
+                            <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="img-responsive" />
+                            <h2 class="name" style="color:white"><?php the_title(); ?></h2>
+                        </div>
+                    </a>
+                </div>
+            <?php endforeach;
+            wp_reset_postdata();?>
+        </div>
+    </div>
+</header>
 
-<?php get_template_part('templates/portfolio'); ?>
+<?php $page = get_page_by_title( 'biography' ); ?>
+<section class="ui segment inverted vertical" style="background-color:#B8E986;">
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-text text-center">
+                    <?php $title = apply_filters('the_title', $page->post_title); ?>
+                    <h1 class="name"><?= $title; ?></h1>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <?php $content = apply_filters('the_content', $page->post_content); ?>
+            <?= $content; ?>
+        </div>
+        <br>
+    </section>
 
-<?php // get_template_part('templates/about'); ?>
+    <style media="screen">
+    p.contact-submit input.pushbutton-wide{
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        color: #ffffff;
+        font-size: 20px;
+        background: #507a2d;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        border:0px;
+        margin-top:10px;
+    }
+    p.contact-submit input.pushbutton-wide:hover{
+        background: #507a2f;
+        text-decoration: none;
+    }
+    </style>
+    <section style="background:#D1EFAE">
+        <div class="container">
+            <?php $page = get_page_by_title( 'form' ); ?>
+            <?php $content = apply_filters('the_content', $page->post_content); ?>
+            <div class="ui form">
+                <?php echo $content; ?>
+            </div>
 
-<?php // get_template_part('templates/contact'); ?>
+        </div>
+    </section>
+
+    <?php // get_template_part('templates/portfolio'); ?>
+
+    <?php // get_template_part('templates/about'); ?>
+
+    <?php // get_template_part('templates/contact'); ?>

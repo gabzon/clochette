@@ -17,29 +17,29 @@
                     </p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Contact</h3>
+                        <p>
+                            <a href="mailto:info@imagineyourmusic.com">info@imagineyourmusic.com</a>
+                        </p>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-soundcloud" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Clochette</h3>
                         <p>
-                            Composer | Pianist | Singer
+                            Composer | Pianist | Vocalist
                         </p>
                         <!-- <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p> -->
                     </div>
