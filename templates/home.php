@@ -26,8 +26,9 @@ h2 {
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="intro-text text-center">
-                    <h1>Imagine your music</h1>
+                <div class="text-center">
+                    <h4 style="text-transform:capitalize; font-size: 30px; margin-top:-20px">Piano | Orchestral | Singing</h4>
+                    <h1 style="text-transform:capitalize; font-size: 60px; margin-top:-5px">Imagine your music</h1>
                 </div>
             </div>
         </div>
