@@ -19,7 +19,7 @@
                     <div class="footer-col col-md-4">
                         <h3>Contact</h3>
                         <p>
-                            <a href="mailto:info@imagineyourmusic.com">info@imagineyourmusic.com</a>
+                            <a href="mailto:<?= get_option('admin_email') ?>"><?= get_option('admin_email') ?></a>
                         </p>
                         <ul class="list-inline">
                             <li>
