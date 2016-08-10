@@ -27,8 +27,15 @@ h2 {
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center">
-                    <h4 style="text-transform:capitalize; font-size: 30px; margin-top:-20px">Piano | Orchestral | Singing</h4>
-                    <h1 style="text-transform:capitalize; font-size: 60px; margin-top:-5px">Imagine your music</h1>
+                    <h1 style="text-transform:capitalize; font-size: 60px; margin-top:-5px; text-shadow: 1px 1px black;">Imagine your music</h1>
+                    <br>
+                    <h2 style="text-shadow: 1px 1px black; text-transform: capitalize">Let's create the perfect music composition <br>just for you!</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h3 style="text-transform:capitalize; margin-top:-20px; text-shadow: 1px 1px black;">Piano | Orchestral | Singing</h3>
                 </div>
             </div>
         </div>
@@ -39,7 +46,7 @@ h2 {
                     <a href="<?php the_permalink(); ?>">
                         <div class="image">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="img-responsive" />
-                            <h2 class="name" style="color:white"><?php the_title(); ?></h2>
+                            <h2 class="name" style="color:white; text-shadow: 1px 1px black;"><?php the_title(); ?></h2>
                         </div>
                     </a>
                 </div>
