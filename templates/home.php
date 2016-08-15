@@ -57,7 +57,7 @@ h2 {
 </header>
 
 <?php $page = get_page_by_title( 'biography' ); ?>
-<section class="ui segment inverted vertical" style="background-color:#B8E986;">
+<section class="ui segment inverted vertical" style="background-color:#B8E986; color:#101010;">
     <br>
     <br>
     <div class="container">
@@ -95,7 +95,7 @@ h2 {
         text-decoration: none;
     }
     </style>
-    <section style="background:#D1EFAE">
+    <section style="background:#D1EFAE;">
         <div class="container">
             <?php $page = get_page_by_title( 'form' ); ?>
             <?php $content = apply_filters('the_content', $page->post_content); ?>

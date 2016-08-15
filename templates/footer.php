@@ -21,7 +21,7 @@
                         <p>
                             <a href="mailto:<?= get_option('admin_email') ?>"><?= get_option('admin_email') ?></a>
                         </p>
-                        <ul class="list-inline">
+                        <!-- <ul class="list-inline">
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i></a>
                             </li>
@@ -34,7 +34,7 @@
                             <li>
                                 <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-youtube" aria-hidden="true"></i></a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Clochette</h3>
