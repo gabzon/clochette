@@ -13,7 +13,8 @@
                 <div class="footer-col col-md-4">
                     <h3>Adresse</h3>
                     <p>
-                        5 chemin neuf<br>1207, Eaux-Vives
+                        Dream Musical Company <br>
+                        5 chemin neuf<br>1207, Genève
                     </p>
                     </div>
                     <div class="footer-col col-md-4">

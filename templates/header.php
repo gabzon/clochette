@@ -1,11 +1,5 @@
-<nav class="nav-primary">
-
-</nav>
-
-
-
 <!-- Navigation -->
-<nav id="mainNav" class="banner navbar navbar-default navbar-fixed-top navbar-custom">
+<nav id="mainNav" class="banner navbar navbar-default navbar-fixed-top navbar-custom" style="background:transparent">
     <?php if ( is_admin_bar_showing() ) echo '<div style="min-height: 28px;"></div>'; ?>
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -16,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#page-top"><?php bloginfo('name'); ?></a>
+            <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
