@@ -42,7 +42,7 @@ h2 {
         <br>
         <div class="row">
             <?php foreach ( $pages as $post ) : setup_postdata( $post ); ?>
-                <div class="col-lg-4 col-xs-4" style="">
+                <div class="col-xs-12 col-lg-4">
                     <a href="<?php the_permalink(); ?>">
                         <div class="image">
                             <img src="<?php the_post_thumbnail_url(); ?>" alt="" class="img-responsive" />

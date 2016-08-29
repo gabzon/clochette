@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
+            <a class="navbar-brand" href="<?php bloginfo('url'); ?>" style="color:#00ADEF">&nbsp; <?php bloginfo('name'); ?></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
