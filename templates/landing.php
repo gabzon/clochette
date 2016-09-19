@@ -55,7 +55,7 @@ h2 {
         </div>
         <br>
         <div class="text-center">
-            <h3><?php _e('All music credits by Nicole Schoefl'); ?></h3>
+            <h3><?php _e('All music credits by Nicole Schoefel'); ?></h3>
         </div>
     </div>
 </header>
