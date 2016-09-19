@@ -5,13 +5,19 @@ $menu_name = 'primary_navigation';
 
 ?>
 <?php if (is_front_page()) : ?>
-    <style>
-    .landing{ background: transparent; border:0;}
-    .navbar-header a.navbar-brand{color:white;}
-    .navbar-header a.navbar-brand.white-text{color:grey;}
-    .navbar-nav li a {color:white !important;}
-    .navbar-nav li a.color-text{ color: grey !important;}
-    </style>
+<style>
+.landing{ background: transparent; border:0;}
+.navbar-header a.navbar-brand{color:white;}
+.navbar-header a.navbar-brand.white-text{color:grey;}
+.navbar-nav li a {color:white !important;}
+.navbar-nav li a.color-text{ color: grey !important;}
+.dropdown-menu ul li a{color:grey !important;}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    font-weight: bold;    
+    background-color: transparent;
+}
+</style>
 <?php endif ?>
 
 <div class="navbar navbar-default navbar-fixed-top landing" role="banner" >

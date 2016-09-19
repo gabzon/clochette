@@ -53,61 +53,44 @@ h2 {
             <?php endforeach;
             wp_reset_postdata();?>
         </div>
+        <br>
+        <div class="text-center">
+            <h3><?php _e('All music credits by Nicole Schoefl'); ?></h3>
+        </div>
     </div>
 </header>
 
-<?php $page = get_page_by_title( 'biography' ); ?>
-<section class="ui segment inverted vertical" style="background-color:#B8E986; color:#101010;">
-    <br>
-    <br>
+<style media="screen">
+p.contact-submit input.pushbutton-wide{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #507a2d;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border:0px;
+    margin-top:10px;
+}
+p.contact-submit input.pushbutton-wide:hover{
+    background: #507a2f;
+    text-decoration: none;
+}
+</style>
+<section style="background:#D1EFAE;">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text text-center">
-                    <?php $title = apply_filters('the_title', $page->post_title); ?>
-                    <h1 class="name"><?= $title; ?></h1>
-                </div>
-            </div>
-            <br>
-            <br>
-            <br>
-            <?php $content = apply_filters('the_content', $page->post_content); ?>
-            <?= $content; ?>
+        <?php $page = get_page_by_title( 'form' ); ?>
+        <?php $content = apply_filters('the_content', $page->post_content); ?>
+        <div class="ui form">
+            <?php echo $content; ?>
         </div>
-        <br>
-    </section>
 
-    <style media="screen">
-    p.contact-submit input.pushbutton-wide{
-        -webkit-border-radius: 28;
-        -moz-border-radius: 28;
-        border-radius: 28px;
-        color: #ffffff;
-        font-size: 20px;
-        background: #507a2d;
-        padding: 10px 20px 10px 20px;
-        text-decoration: none;
-        border:0px;
-        margin-top:10px;
-    }
-    p.contact-submit input.pushbutton-wide:hover{
-        background: #507a2f;
-        text-decoration: none;
-    }
-    </style>
-    <section style="background:#D1EFAE;">
-        <div class="container">
-            <?php $page = get_page_by_title( 'form' ); ?>
-            <?php $content = apply_filters('the_content', $page->post_content); ?>
-            <div class="ui form">
-                <?php echo $content; ?>
-            </div>
+    </div>
+</section>
 
-        </div>
-    </section>
+<?php // get_template_part('templates/portfolio'); ?>
 
-    <?php // get_template_part('templates/portfolio'); ?>
+<?php // get_template_part('templates/about'); ?>
 
-    <?php // get_template_part('templates/about'); ?>
-
-    <?php // get_template_part('templates/contact'); ?>
+<?php // get_template_part('templates/contact'); ?>
