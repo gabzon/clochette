@@ -38,7 +38,7 @@
                         </ul> -->
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Clochette</h3>
+                        <h3>Nicole Schoefel</h3>
                         <p>
                             Composer | Pianist | Vocalist
                         </p>

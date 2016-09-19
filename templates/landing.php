@@ -1,6 +1,6 @@
 <?php
 /**
-* Template Name: home
+* Template Name: Landing
 */
 ?>
 
@@ -78,6 +78,7 @@ p.contact-submit input.pushbutton-wide:hover{
     text-decoration: none;
 }
 </style>
+
 <section style="background:#D1EFAE;">
     <div class="container">
         <?php $page = get_page_by_title( 'form' ); ?>
@@ -85,12 +86,5 @@ p.contact-submit input.pushbutton-wide:hover{
         <div class="ui form">
             <?php echo $content; ?>
         </div>
-
     </div>
 </section>
-
-<?php // get_template_part('templates/portfolio'); ?>
-
-<?php // get_template_part('templates/about'); ?>
-
-<?php // get_template_part('templates/contact'); ?>
