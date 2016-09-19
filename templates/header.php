@@ -11,10 +11,10 @@ $menu_name = 'primary_navigation';
 .navbar-header a.navbar-brand.white-text{color:grey;}
 .navbar-nav li a {color:white !important;}
 .navbar-nav li a.color-text{ color: grey !important;}
-.dropdown-menu ul li a{color:grey !important;}
+ul.dropdown-menu li a{color:grey !important;}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    font-weight: bold;    
+    font-weight: bold;
     background-color: transparent;
 }
 </style>
