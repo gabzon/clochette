@@ -1,7 +1,6 @@
 <br>
 <br>
 <br>
-
 <?php while (have_posts()) : the_post(); ?>
     <article <?php post_class(); ?>>
         <h1 class="entry-title"><?php the_title(); ?></h1>
