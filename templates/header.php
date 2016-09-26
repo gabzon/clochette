@@ -34,7 +34,7 @@ ul.dropdown-menu li a{color:grey !important;}
             </button>
             <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>" rel="home" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
                 <?php if ( get_theme_mod( 'themeslug_logo' ) ) : ?>
-                    <img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' class="img-responsive" style="max-width:150px;margin-top:-10px">
+                    <img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' class="img-responsive" style="max-width:150px;margin-top:-14px">
                 <?php else : ?>
                     <?php echo bloginfo('name'); ?>
                 <?php endif; ?>
