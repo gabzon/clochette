@@ -20,7 +20,7 @@ ul.dropdown-menu li a{color:grey !important;}
 </style>
 <?php endif ?>
 
-<div class="navbar navbar-default navbar-fixed-top landing" role="banner" >
+<div class="navbar navbar-default navbar-fixed-top landing" role="banner" style="height:120px;">
     <?php if (is_admin_bar_showing()): ?>
         <?= '<div style="min-height: 28px;"></div>'; ?>
     <?php endif; ?>
