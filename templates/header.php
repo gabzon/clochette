@@ -32,7 +32,14 @@ ul.dropdown-menu li a{color:grey !important;}
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>" ><?php echo bloginfo('name'); ?></a>
+            <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>" rel="home" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
+                <?php if ( get_theme_mod( 'themeslug_logo' ) ) : ?>
+                    <img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' class="img-responsive" style="max-width:200px;">
+                <?php else : ?>
+                    <?php echo bloginfo('name'); ?>
+                <?php endif; ?>
+
+            </a>
         </div>
 
         <nav class="collapse navbar-collapse" role="navigation" style="text-transform:uppercase">
