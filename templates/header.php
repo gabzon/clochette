@@ -20,7 +20,7 @@ ul.dropdown-menu li a{color:grey !important;}
 </style>
 <?php endif ?>
 
-<div class="navbar navbar-default navbar-fixed-top landing" role="banner" style="height:120px;">
+<div class="navbar navbar-default navbar-fixed-top landing" role="banner" style="height:80px;">
     <?php if (is_admin_bar_showing()): ?>
         <?= '<div style="min-height: 28px;"></div>'; ?>
     <?php endif; ?>
@@ -34,7 +34,7 @@ ul.dropdown-menu li a{color:grey !important;}
             </button>
             <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>" rel="home" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">
                 <?php if ( get_theme_mod( 'themeslug_logo' ) ) : ?>
-                    <img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' class="img-responsive" style="max-width:50px;margin-top:-10px">
+                    <img src='<?php echo esc_url( get_theme_mod( 'themeslug_logo' ) ); ?>' alt='<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>' class="img-responsive" style="max-width:150px;margin-top:-10px">
                 <?php else : ?>
                     <?php echo bloginfo('name'); ?>
                 <?php endif; ?>
